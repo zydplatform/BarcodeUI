@@ -32,8 +32,7 @@
 		            <!--      Wizard container        -->
 		            <div class="wizard-container" style="padding-top: 30px;">
 		                <div class="card wizard-card" data-color="green" id="wizardProfile">
-		                   <form action="{{ route('registerbusiness') }}" method="POST" autocomplete="off">
-		                   	@csrf
+		                    <form action="{{ route('registerbusiness') }}" method="POST" autocomplete="off">
 		                    	<div class="wizard-header">
                                 <span class="btn-inner--icon"><img src="{{ asset('argon') }}/img/brand/small.png"></span>
 		                        	<h3 class="wizard-title">
@@ -192,8 +191,7 @@
 		                        <div class="wizard-footer">
 		                            <div class="pull-right">
 		                                <input type='button' class='btn btn-next btn-fill btn-success btn-wd' name='next' value='Next' />
-<!-- 										<button type="submit" name='finish' class='btn btn-finish btn-fill btn-success btn-wd'><a href="{{ route('products') }}" style="color:white;">{{ __('Submit') }}</a></button> -->
-<input type="submit" name='finish' class='btn btn-finish btn-fill btn-success btn-wd' value="Finish"/>
+										<button type="submit" name='finish' class='btn btn-finish btn-fill btn-success btn-wd'><a href="{{ route('products') }}" style="color:white;">{{ __('Submit') }}</a></button>
 		                            </div>
 
 		                            <div class="pull-left">

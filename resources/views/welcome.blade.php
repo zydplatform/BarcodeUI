@@ -8,7 +8,7 @@
                     <div class="col-lg-5 col-md-6">
                         <h1 class="text-white">{{ __('Welcome to GS1 Standard\'s Uganda') }}</h1>
                         <div class="row justify-content-center">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-5 col-md-6">
                 <button type="submit" class="btn btn-default btn-block my-4"><a href="{{ route('login') }}" style="color:white;" rel="noopener noreferrer">{{ __('Get Started') }}</a></button>
                     
                 </div>

@@ -8,7 +8,6 @@ use Validator,Redirect,Response;
 use Picqer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use Illuminate\Support\Facades\Validator;
 
 class BarcodeController extends Controller
 {
@@ -27,5 +26,9 @@ class BarcodeController extends Controller
         $responseBody = json_decode($response->getBody());
 
     dd($responseBody);
+    }
+
+    public function BarcodeRequestView(){
+        return view('barcoderequest');
     }
 }

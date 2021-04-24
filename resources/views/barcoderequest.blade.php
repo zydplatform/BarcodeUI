@@ -15,11 +15,9 @@
                     <div class="card-header border-0">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h3 class="mb-0">Products</h3>
+                                <h3 class="mb-0">Get barcode for all your products here</h3>
                             </div>
-                            <div class="col text-right">
-                                <a href="{{ route('products') }}" class="btn btn-sm btn-primary">Add Product</a>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="table-responsive">
@@ -31,7 +29,7 @@
                                     <th scope="col">Product Code</th>
                                     <th scope="col">Product Description</th>
                                     <th scope="col">Product Price (UGX)</th>
-                                    <th scope="col">Action</th>
+                                    <th scope="col">Barcode Request</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -47,7 +45,7 @@
                                     </td>
                                     <td>10000
                                     </td>
-                                    <td><button class="btn btn-sm btn-warning">Edit</button></td>
+                                    <td><button class="btn btn-sm btn-warning">Send Request</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -61,7 +59,7 @@
                                     </td>
                                     <td>5000
                                     </td>
-                                    <td><button class="btn btn-sm btn-warning">Edit</button></td>
+                                    <td><button class="btn btn-sm btn-warning">Send Request</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -75,7 +73,7 @@
                                     </td>
                                     <td>14000
                                     </td>
-                                    <td><button class="btn btn-sm btn-warning">Edit</button></td>
+                                    <td><button class="btn btn-sm btn-warning">Send Request</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -89,7 +87,7 @@
                                     </td>
                                     <td>15500
                                     </td>
-                                    <td><button class="btn btn-sm btn-warning">Edit</button></td>
+                                    <td><button class="btn btn-sm btn-warning">Send Request</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -103,7 +101,7 @@
                                     </td>
                                     <td>10000
                                     </td>
-                                    <td><button class="btn btn-sm btn-warning">Edit</button></td>
+                                    <td><button class="btn btn-sm btn-warning">Send Request</button></td>
                                 </tr>
                             </tbody>
                         </table>

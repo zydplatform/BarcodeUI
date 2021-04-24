@@ -77,25 +77,25 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('dashboard') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('GS1 Dashboard') }}
+                        <i class="ni ni-tv-2 text-primary"></i> {{ __('GS1 Client Dashboard') }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-examples">
                         <i class="fa fa-users" style="color: #f4645f;"></i>
-                        <span class="nav-link-text" style="color: #f4645f;">{{ __('System Administration') }}</span>
+                        <span class="nav-link-text" style="color: #f4645f;">{{ __('My Profile') }}</span>
                     </a>
 
                     <div class="collapse show" id="navbar-examples">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('System Users') }}
+                                <a class="nav-link" href="{{route('clientbusinessprofile')}}">
+                                    {{ __('See Business Details') }}
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    {{ __('User Permissions & Roles') }}
+                                    {{ __('See Profile') }}
                                 </a>
                             </li>
                         </ul>
@@ -104,18 +104,14 @@
                  <li class="nav-item">
                     <a class="nav-link active" href="#navbar-examples1" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-examples1">
                         <i class="fa fa-book" style="color: #f4645f;"></i>
-                        <span class="nav-link-text" style="color: #f4645f;">{{ __('Company Registry') }}</span>
+                        <span class="nav-link-text" style="color: #f4645f;">{{ __('Products') }}</span>
                     </a>
 
                     <div class="collapse show" id="navbar-examples1">
                         <ul class="nav nav-sm flex-column">
+                            
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('addcompany') }}">
-                                    {{ __('Add Company ') }}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('addproducts') }}">
+                                <a class="nav-link" href="{{ route('products') }}">
                                     {{ __('Add Products') }}
                                 </a>
                             </li>
@@ -132,56 +128,20 @@
                         <ul class="nav nav-sm flex-column">
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Barcode Requests') }}
+                                <a class="nav-link" href="{{route('barcoderequest')}}">
+                                    {{ __('Send Requests') }}
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    {{ __('Barcodes Issued') }}
+                                    {{ __('See Barcodes') }}
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Available Barcodes') }}
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </li>
-                                 <li class="nav-item">
-                    <a class="nav-link active" href="#navbar-examples4" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-examples4">
-                        <i class="fa fa-briefcase" style="color: #f4645f;"></i>
-                        <span class="nav-link-text" style="color: #f4645f;">{{ __('Data Management') }}</span>
-                    </a>
-
-                    <div class="collapse show" id="navbar-examples4">
-                        <ul class="nav nav-sm flex-column">
-                             <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Business Lines') }}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Business Types') }}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Item Catalogue') }}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Districts') }}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    {{ __('Countries') }}
-                                </a>
-                            </li>
+                                 
                         </ul>
                     </div>
                 </li>

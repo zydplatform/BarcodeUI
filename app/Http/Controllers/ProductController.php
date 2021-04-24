@@ -16,6 +16,9 @@ class ProductController extends Controller
 public function productCatalogue(){
     return view('createproducts');
 }
+public function productadminCatalogue(){
+    return view('productsadmin');
+}
 //businessProducts/all
 
     public function businessProducts()
